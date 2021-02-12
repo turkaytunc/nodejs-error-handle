@@ -8,4 +8,4 @@ const getUserById = (req, res, next) => {
   return res.json({ id });
 };
 
-module.exports = getUserById;
+module.exports = { getUserById };
