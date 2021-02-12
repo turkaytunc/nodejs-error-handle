@@ -14,6 +14,12 @@ app.get('/', (req, res, next) => {
 
 app.use('/user', userRoutes);
 
+app.get('/*', (req, res, next) => {
+  const error = new Error('Page Not Found');
+  error.statusCode = 404;
+  return next(error);
+});
+
 // Handle Error
 app.use((error, req, res, next) => {
   if (res.headerSent) {
