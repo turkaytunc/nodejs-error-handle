@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-error-handle",
+  "version": "1.0.0",
+  "description": "how to handle error in nodejs apps",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkaytunc/nodejs-error-handle.git"
+  },
+  "keywords": [
+    "error",
+    "nodejs",
+    "rest"
+  ],
+  "author": "Türkay Tunç",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/turkaytunc/nodejs-error-handle/issues"
+  },
+  "homepage": "https://github.com/turkaytunc/nodejs-error-handle#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
